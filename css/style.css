@@ -13,7 +13,7 @@
 
 body {
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
     color: white;
 }
 
@@ -36,10 +36,14 @@ header .logo {
 header nav a {
     color: #aaaaaa;
     margin-right: 10px;
+    transition: .2s ease all;
 }
 
 header nav a:hover {
     color:#fff;
+    font-size: 18px;
+    transition: .2s ease all;
+    text-decoration: underline;
 }
 
 /*FILME PRINCIPAL*/
@@ -47,8 +51,8 @@ header nav a:hover {
 .filme-principal {
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%);
-    background: url('../img/capa-house.jpg');
-    height: 400px;
+    background: url('../img/capa-prison.jpg');
+    height: 500px;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -57,8 +61,9 @@ header nav a:hover {
 }
 
 .filme-principal:hover {
-  height: 750px;
+  height: 650px;
   transition: .5s ease-in-out all;
+  opacity: 0.6;
 }
 
 .filme-principal {
@@ -73,9 +78,9 @@ header nav a:hover {
 .filme-principal .titulo {
     margin-top: 15%;
     font-size: 40px;
+    color: white;
     font-family: 'Trebuchet MS', Arial, sans-serif;
 }
-
 
 .botao {
     background-color: rgba(0,0,0,.50);
@@ -113,5 +118,59 @@ header nav a:hover {
 }
 
 .carrosel-filmes {
-    margin-top: 5px;
+    margin-top: 12px;
 }
+
+.item {
+    height: 50vh;
+}
+
+h4 {
+    color: #aaaaaa;
+    margin-left: 15px;
+    padding-bottom: 8px;
+}
+
+.menus {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menus input {
+    border-radius: 5px;
+    border: none;
+    height: 25px;
+    margin-right: 5px;
+    background-color:white
+}
+
+.menus input::placeholder {
+    color:#141414;
+}
+
+.menus input:hover::placeholder {
+    color: transparent;
+}
+
+.fa-globe {
+    padding: 3px;
+    margin-left: 15px;
+    margin-right: 5px;
+    text-align: center;
+}
+.fa-globe p {
+    font-size: 10px;
+}
+
+.fa-globe:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.fa-search:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
