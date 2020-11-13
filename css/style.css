@@ -174,3 +174,25 @@ h4 {
     cursor: pointer;
 }
 
+.item {
+    position: relative;
+    display: block;
+    flex: 1 1 0px;
+    transition: transform 500ms;
+}
+
+ .item:focus,
+ .item:hover {
+  transform: scale(1.5);
+  z-index: 1;
+}
+
+
+  
+  .item img {
+    display: block;
+    max-width: 100%;
+    
+  }
+
+
