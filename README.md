@@ -1,4 +1,4 @@
-# Ola, tudo bem? Esse é o meu primeiro desafio css!! 🙃
+# Ola, tudo bem? Esse é o meu segundo desafio css!! 🙃
 
 Esse é o repositório da aula de Flexbox, na qual reproduzimos a interface da netflix! 
 
