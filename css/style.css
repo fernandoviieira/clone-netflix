@@ -185,11 +185,15 @@ h4 {
     visibility: hidden;
     width: 100%;
     text-align: center;
-    line-height: 200px;
+    line-height: 230px;
     color: #141414;
     font-weight: bolder;
     font-size: 24px;
     cursor: pointer;
   }
+
+  .item:hover {
+    transform: scale(1.02);
+}
 
 
