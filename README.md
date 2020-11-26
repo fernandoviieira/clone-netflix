@@ -14,7 +14,7 @@ Usei algumas propriedades novas como ocultar placeholder, transform:scale(), ::a
 
   ![](https://github.com/fernandoviieira/clone-netflix/blob/master/img/clonefix_01.png)
 
-  ![](C:\Users\ferna\OneDrive\Área de Trabalho\Workspace\Clonefix\clone-netflix\img\clonefix_02.png)
+  ![](https://github.com/fernandoviieira/clone-netflix/blob/master/img/clonefix_02.png)
 
 ## 🚀 Let's code! 🚀
 
